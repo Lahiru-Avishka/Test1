@@ -1,21 +1,61 @@
-ul{
+ul {
     background-color: rgb(18, 14, 99);
     padding: 30px;
     margin-top: 0;
     list-style: none;
 }
-ul li{
+
+ul li {
     background-color: rgb(24, 189, 183);
     padding: 10px;
     border-radius: 8px;
-    color: blue;
+    color: rgb(173, 173, 189);
     float: right;
     cursor: pointer;
     padding: 10px;
     margin: 10px;
     position: relative;
     bottom: 25px;
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-shadow: 2px;
 }
-ui li:hover{
-    background-color: green;
+
+ul li:hover {
+    background-color: rgb(174, 43, 63);
+}
+
+@media screen and (min-width :500px) {
+    body {
+        background-color: green;
+    }
+
+}
+
+@media screen and (min-width :300px) {
+    body {
+        background-color: rgb(23, 96, 173);
+    }
+
+}
+
+@media screen and (min-width :900px) {
+    body {
+        background-color: rgb(198, 137, 7);
+    }
+
+}
+
+@media screen and (min-width :300px) {
+    ul li {
+        background-color: rgb(122, 18, 133);
+    }
+
+}
+
+@media screen and (min-width :350px) {
+    body {
+        background-color: rgb(19, 111, 119);
+    }
+
 }
